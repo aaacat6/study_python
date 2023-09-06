@@ -72,15 +72,108 @@
 # ### 退出提示
 # input("点击 enter 键退出")
 
-number = 7
-guess = -1
-print("数字猜谜游戏!")
-while guess != number:
-    guess = int(input("请输入你猜的数字："))
+# number = 7
+# guess = None
+# print("数字猜谜游戏!")
+# while guess != number:
+#     guess = int(input("请输入你猜的数字："))
  
-    if guess == number:
-        print("恭喜，你猜对了！")
-    elif guess < number:
-        print("猜的数字小了...")
-    elif guess > number:
-        print("猜的数字大了...")
+#     if guess == number:
+#         print("恭喜，你猜对了！")
+#     elif guess < number:
+#         print("猜的数字小了...")
+#     elif guess > number:
+#         print("猜的数字大了...")
+
+# num = int(input("请输入一个数字"))
+# if num%2 == 0:
+#     if num%3 == 0:
+#         print("能被2整除,也能被3整除")
+#     else:
+#         print("能被2整除,不能被3整除")
+# else:
+#     if num%3 == 0:
+#         print("能被3整除,不能被2整除")
+#     else:
+#         print("不能被2和3整除")
+
+# x = 2
+
+# match x:
+#     case 1:
+#         print("x is one")
+#     case 2:
+#         print("x is two")
+#     case _:
+#         print("x is neither one nor two")
+
+# point = (2, 3)
+
+# match point:
+#     case (0, 0):
+#         print("Origin")
+#     case (0, y):
+#         print(f"On Y axis with y-coordinate {y}")
+#     case (x, 0):
+#         print(f"On X axis with x-coordinate {x}")
+#     case (x, y):
+#         print(f"Point is at ({x}, {y})")
+#     case _:
+#         print("Not a point")
+
+# n = 3
+ 
+# sum = 0
+# counter = 1
+# while counter <= n:
+#     sum = sum + counter
+#     counter += 1
+ 
+# print("1 到 %d 之和为: %d" % (n,sum))
+
+# n = int(input("求和最大值"))
+# m = int(input("求和最小值"))
+# sum = (n-m+1)/2 * (n + m)
+# print(f"{m}到{n}之间相加的和是:{sum}")
+
+# word = 'runoob'
+ 
+# for a in word:
+#     print(a)
+
+# sites = ["Baidu", "Google","Runoob","Taobao"]
+# for site in sites:
+#     print("循环数据 " + site)
+#     if site == "Runoob":
+#         print("菜鸟教程!")
+#         break
+# else:
+#     print("没有循环数据!")
+# print("完成循环!")
+
+# while True:
+#     number = int(input("请输入一个数字: "))
+#     if number == 5:
+#         print("你输入了5，循环将结束。")
+#         break
+#     else:
+#         print("你输入了", number, "。请再试一次！")
+
+# n = 5
+# while n > 0:
+#     n -= 1
+#     if n == 2:
+#         continue
+#     print(n)
+# print('循环结束。')
+
+site = ["a","b","c"]
+
+while len(site) > 1:
+    site.pop()
+
+if len(site) == 1:
+    print("over")
+
+
+       
